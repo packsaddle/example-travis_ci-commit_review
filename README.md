@@ -1,6 +1,6 @@
 # Example::TravisCi
 
-run rubocop and pull request review comment
+run rubocop and commit review comment
 
 [Actual script for TravisCI](./bin/run-rubocop.sh)
 
@@ -23,7 +23,7 @@ if [ -n "${TRAVIS_PULL_REQUEST}" ] && [ "${TRAVIS_PULL_REQUEST}" != "false" ]; t
    | checkstyle_filter-git diff origin/master \
    | saddler report \
       --require saddler/reporter/github \
-      --reporter Saddler::Reporter::Github::PullRequestReviewComment
+      --reporter Saddler::Reporter::Github::CommitReviewComment
 fi
 exit 0
 ```
