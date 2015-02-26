@@ -10,9 +10,6 @@ before_install:
 notifications:
   email:
   - ogataken@gmail.com
-branches:
-  only:
-  - master
 env:
   global:
     secure: Zs9BjFrAkGMjxI8AppmtMyRbZf2d4vhu5KEHqChtKHhw6tdhxcDOy0qlJGuy2xurSgr+iy+9Iu2wkAh+FZbSyf20O8YDmt8fnWb2Dhv6gYvSzYo442qJ3SwqSIggqjvOxrQabT0w7WW9j4AeSE2JKQwIE1TZ6j9kbLa6HU/rTPo=
