@@ -1,19 +1,19 @@
 language: ruby
 sudo: false
 rvm:
-  - 1.9
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9
+- 2.0
+- 2.1
+- 2.2
 before_install:
-  - gem update bundler
+- gem update bundler
 notifications:
   email:
-    - ogataken@gmail.com
+  - ogataken@gmail.com
 branches:
   only:
-    - master
+  - master
 env:
   global:
-    - secure: "UOtW6cyAgaLqC4OZ1/t4H5nJkFHEgAag2LsffHvCWaxsANmgGoqdHqKEDMQMJIntEc2woCNzM2ZNyUuvMvRu9A9OiXhRfh6fXnI3Rcwx2mxsaATLV4qLd9Yf+UYlQRXOU0c6QlWNPXhd0MetguK/QZ2OQXCVxRHNx09hReZJqWs="
-before_script: ./bin/run-rubocop.sh
+    secure: Zs9BjFrAkGMjxI8AppmtMyRbZf2d4vhu5KEHqChtKHhw6tdhxcDOy0qlJGuy2xurSgr+iy+9Iu2wkAh+FZbSyf20O8YDmt8fnWb2Dhv6gYvSzYo442qJ3SwqSIggqjvOxrQabT0w7WW9j4AeSE2JKQwIE1TZ6j9kbLa6HU/rTPo=
+before_script: "./bin/run-rubocop.sh"
